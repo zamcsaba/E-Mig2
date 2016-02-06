@@ -168,7 +168,38 @@
                         <Button x:Name="menu_settings" Content="Settings" HorizontalAlignment="Stretch" Margin="0,0,0,10" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" Background="Transparent" Height="40" Foreground="#FFFEFEFE" BorderThickness="0" Padding="12,4,8,4" FontSize="16" Style="{StaticResource ButtonStyle_Menu}" />
                     </Grid>
                 </SplitView.Pane>
+                <SplitView.Content>
+                    <Grid x:Name="main_content">
+                        <!-- KERESÉS-->
+                        <TextBox x:Name="textBox" Margin="139,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" PlaceholderText="pl. 431 119" BorderThickness="1" HorizontalAlignment="Left" Width="154" Padding="10,4,6,5"/>
+                        <TextBlock x:Name="tbSearch" HorizontalAlignment="Left" Margin="16,10,0,0" TextWrapping="Wrap" Text="Keresés" VerticalAlignment="Top" Foreground="#FFFEFEFE" FontSize="24"/>
+                        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="16,53,0,0" VerticalAlignment="Top" Width="118" SelectedIndex="0" BorderThickness="1" Height="34">
+                            <TextBlock Text="Pályaszám"/>
+                            <TextBlock Text="Vonatszám"/>
+                            <TextBlock Text="UIC"/>
+                            <TextBlock Text="Sorozat"/>
+                        </ComboBox>
+                        <Button x:Name="button" Content="&#59166;" HorizontalAlignment="Left" Margin="299,54,0,0" VerticalAlignment="Top" Width="36" Background="#FF7A7A7A" FontFamily="Segoe MDL2 Assets" Height="32"/>
+                        <!-- LEGUTÓBBI-->
+                        <TextBlock x:Name="tbRecent" HorizontalAlignment="Left" Margin="17,110,0,0" TextWrapping="Wrap" Text="Legutóbb keresett" VerticalAlignment="Top" Foreground="#FFFEFEFE" FontSize="24"/>
+                        <ListView x:Name="recent_list" HorizontalAlignment="Left" Height="120" Margin="19,142,0,0" VerticalAlignment="Top" Width="314">
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                        </ListView>
+                        <!-- KEDVENCEK-->
+                        <TextBlock x:Name="tbFavorites" HorizontalAlignment="Left" Margin="17,288,0,0" TextWrapping="Wrap" Text="Kedvencek" VerticalAlignment="Top" Foreground="#FFFEFEFE" FontSize="24"/>
+                        <ListView x:Name="favorites_list" HorizontalAlignment="Left" Height="120" Margin="19,320,0,0" VerticalAlignment="Top" Width="314">
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                            <TextBlock Foreground="#FFFEFEFE" Text="431 195  (91-55-0431-195-3)"/>
+                        </ListView>
+                    </Grid>
+                </SplitView.Content>
             </SplitView>
+
         </Grid>
     </Grid>
 </Page>

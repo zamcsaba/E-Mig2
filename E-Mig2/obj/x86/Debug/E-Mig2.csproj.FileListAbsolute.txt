@@ -194,3 +194,8 @@ C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug
 C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\E-Mig2.csprojResolveAssemblyReference.cache
+C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\LoginPage.xbf
+C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\LoginPage.g.i.cs
+C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\LoginPage.g.cs
+C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\LoginPage.xaml
+C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\obj\x86\Debug\LoginPage.xbf
