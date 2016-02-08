@@ -15,17 +15,16 @@ using Windows.UI.Xaml.Navigation;
 
 namespace E_Mig2
 {
-    public sealed partial class LoginPage : Page
+    public sealed partial class MapPage : Page
     {
-        public LoginPage()
+        public MapPage()
         {
             this.InitializeComponent();
         }
 
-        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        private void btnMenuToggle_Click(object sender, RoutedEventArgs e)
         {
-            Frame fr = Window.Current.Content as Frame;
-            fr.Navigate(typeof(MainPage), null);
+            mainSplitView.IsPaneOpen = !mainSplitView.IsPaneOpen;
         }
     }
 }

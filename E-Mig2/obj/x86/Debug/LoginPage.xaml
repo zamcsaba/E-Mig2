@@ -119,12 +119,13 @@
 
     <Grid Background="#FF202020">
         <Grid Margin="0" HorizontalAlignment="Center" Width="370">
-            <TextBlock x:Name="textBlock" Margin="32,80,25,0" TextWrapping="Wrap" Text="Belépés" VerticalAlignment="Top" Height="70" Foreground="#FFFEFEFE" FontSize="48" FontWeight="Light" TextAlignment="Center"/>
-            <TextBox x:Name="textBox" Height="43" Margin="32,182,25,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="24" PlaceholderText="Felhasználónév" BorderThickness="0"/>
-            <PasswordBox x:Name="passwordBox" Margin="32,243,25,0" VerticalAlignment="Top" Height="42" PlaceholderText="Jelszó" FontSize="24" BorderThickness="0"/>
-            <Button x:Name="button" Content="Bejelentkezés" HorizontalAlignment="Right" Margin="0,304,25,0" VerticalAlignment="Top" BorderThickness="0" Height="42" Background="#FF7A7A7A" FontSize="24" Width="175" Style="{StaticResource ButtonStyle1}"/>
-            <Button x:Name="button_Copy" Content="Regisztráció" HorizontalAlignment="Stretch" Margin="32,488,25,0" VerticalAlignment="Top" BorderThickness="0" Height="42" Background="#FF7A7A7A" FontSize="24" Style="{StaticResource ButtonStyle1}"/>
-            <HyperlinkButton x:Name="btnCancel" Content="Mégse" HorizontalAlignment="Right" Margin="0,0,25,16" VerticalAlignment="Bottom" Foreground="#FFE0E0E0" Click="btnCancel_Click" Height="36" Width="50" Style="{StaticResource HyperlinkButtonStyle1}"/>
+            <TextBlock x:ConnectionId='1' x:Name="textBlock" Margin="32,80,25,0" TextWrapping="Wrap" Text="Belépés" VerticalAlignment="Top" Height="70" Foreground="#FFFEFEFE" FontSize="48" FontWeight="Light" TextAlignment="Center"/>
+            <TextBox x:ConnectionId='2' x:Name="textBox" Height="43" Margin="32,182,25,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="24" PlaceholderText="Felhasználónév" BorderThickness="0"/>
+            <PasswordBox x:ConnectionId='3' x:Name="passwordBox" Margin="32,243,25,0" VerticalAlignment="Top" Height="42" PlaceholderText="Jelszó" FontSize="24" BorderThickness="0"/>
+            <Button x:ConnectionId='4' x:Name="button" Content="Bejelentkezés" HorizontalAlignment="Right" Margin="0,304,25,0" VerticalAlignment="Top" BorderThickness="0" Height="42" Background="#FF7A7A7A" FontSize="24" Width="175" Style="{StaticResource ButtonStyle1}"/>
+            <Button x:ConnectionId='5' x:Name="button_Copy" Content="Regisztráció" HorizontalAlignment="Stretch" Margin="32,488,25,0" VerticalAlignment="Top" BorderThickness="0" Height="42" Background="#FF7A7A7A" FontSize="24" Style="{StaticResource ButtonStyle1}"/>
+            <HyperlinkButton x:ConnectionId='6' x:Name="btnCancel" Content="Mégse" HorizontalAlignment="Right" Margin="0,0,25,16" VerticalAlignment="Bottom" Foreground="#FFE0E0E0"                         Height="36" Width="50" Style="{StaticResource HyperlinkButtonStyle1}"/>
         </Grid>
     </Grid>
 </Page>
+

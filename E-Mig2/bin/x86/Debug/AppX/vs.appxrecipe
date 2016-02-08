@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-06T21:44:03.259</Modified>
+      <Modified>2016-02-07T13:31:12.033</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\E-Mig2.exe">
       <PackagePath>entrypoint\E-Mig2.exe</PackagePath>
-      <Modified>2016-02-06T21:44:02.506</Modified>
+      <Modified>2016-02-07T13:31:11.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Csaba\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -503,7 +503,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\E-Mig2.xr.xml">
       <PackagePath>E-Mig2.xr.xml</PackagePath>
-      <Modified>2016-02-06T21:44:02.249</Modified>
+      <Modified>2016-02-07T13:31:10.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -511,11 +511,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-02-06T21:44:03.032</Modified>
+      <Modified>2016-02-07T13:31:11.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Csaba\documents\visual studio 2015\Projects\E-Mig2\E-Mig2\bin\x86\Debug\Core\E-Mig2.exe">
       <PackagePath>E-Mig2.exe</PackagePath>
-      <Modified>2016-02-06T21:44:03.257</Modified>
+      <Modified>2016-02-07T13:31:12.030</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

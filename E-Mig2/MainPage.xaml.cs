@@ -31,5 +31,11 @@ namespace E_Mig2
         {
             mainSplitView.IsPaneOpen = !mainSplitView.IsPaneOpen;
         }
+
+        private void menu_map_Click(object sender, RoutedEventArgs e)
+        {
+            Frame fr = Window.Current.Content as Frame;
+            fr.Navigate(typeof(MapPage), null);
+        }
     }
 }
